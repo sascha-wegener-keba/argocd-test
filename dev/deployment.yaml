@@ -15,6 +15,7 @@ spec:
       containers:
         - name: openfga-container
           image: openfga/openfga:v1
+          command: ["run"]
           ports:
             - containerPort: 8080
           resources:
